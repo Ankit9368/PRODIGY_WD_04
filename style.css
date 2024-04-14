@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montez&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montez", cursive;
+}
+
+body {
+  background-image: url("assets/pexels-ave-calvar-martinez-3497624.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  font-size: 82px;
+  color: #333c3e;
+  padding-top: 70px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0a689b;
+  height: 133px;
+  border-radius: 12px;
+}
+
+.inputs input[type="text"] {
+  height: 60px;
+  width: 310px;
+  font-weight: bold;
+  font-size: 28px;
+  padding: 15px;
+  border: none;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin-right: 8px;
+}
+
+.inputs input[type="submit"] {
+  height: 58px;
+  width: 115px;
+  background: #13ddcc;
+  font-weight: bold;
+  color: white;
+  font-size: 28px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.23s ease-in-out;
+}
+
+.inputs input[type="submit"]:hover{
+    background: #0ec5b6;
+}
+
+.display {
+  text-align: center;
+  width: 520px;
+}
+
+.wrapper {
+    background-color: #47f5e6;
+    height: 233px;
+    margin: 50px auto;
+    border-radius: 12px;
+}
+
+.wrapper h2 {
+  padding: 5px 0;
+  text-align: center;
+  background: #0a689b;
+  color: white;
+  border-radius: 12px 12px 0 0;
+}
+
+.wrapper p {
+  margin: 20px 50px;
+  margin-right: 20px;
+  text-align: left;
+  color: #04214c;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.wrapper h2 span {
+  font-size: 26px;
+  color: #9beefb;
+}
+
+.wrapper p span {
+  color: #5e0df4;
+  font-size: 25px;
+}
